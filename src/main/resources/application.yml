@@ -1,0 +1,12 @@
+micronaut:
+  application:
+    name: paccs
+datasources:
+  default:
+    driver-class-name: org.mariadb.jdbc.Driver
+    db-type: mariadb
+    dialect: MYSQL
+flyway:
+  datasources:
+    default:
+      enabled: true

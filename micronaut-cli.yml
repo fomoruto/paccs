@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: ug.pearl.accounting
+testFramework: junit
+sourceLanguage: java
+buildTool: maven
+features: [app-name, asciidoctor, data, data-jdbc, email-javamail, email-template, flyway, http-client-jdk, jackson-databind, java, java-application, jdbc-tomcat, junit, logback, mariadb, maven, maven-enforcer-plugin, micronaut-aot, micronaut-http-validation, readme, security, security-annotations, shade, test-resources, tomcat-server, validation, views-thymeleaf, yaml, yaml-build]
